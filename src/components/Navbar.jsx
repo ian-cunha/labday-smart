@@ -1,4 +1,4 @@
-import logo from '../assets/logoSmart.svg'
+import logo from '../assets/labday.png'
 
 function Navbar() {
   return (

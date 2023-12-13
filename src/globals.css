@@ -356,6 +356,11 @@ h6.grid-color {
 }
 
 @media (max-width: 600px) {
+  .group {
+    width: 100vw;
+    height: 32vh;
+  }
+
   .text1 {
     text-align: center;
   }
@@ -366,6 +371,21 @@ h6.grid-color {
 
   .textStyle1 {
     text-align: justify;
+  }
+
+  .wpp-button {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 15px;
+    right: 15px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+    border: 0;
   }
   
   .siteImg {
@@ -384,7 +404,7 @@ h6.grid-color {
     padding-top: 130px;
     padding-bottom: 150px;
     width: 100vw;
-    height: 120vh;
+    height: 130vh;
     background: rgb(255, 90, 45);
     background: linear-gradient(153deg, rgba(255, 90, 45, 1) 0%, rgba(34, 21, 73, 1) 100%);
   }
@@ -392,7 +412,7 @@ h6.grid-color {
   .baseForm {
     padding: 0px;
     width: 100vw;
-    height: 100vh;
+    height: 130vh;
   }
 
   .imgSmartphone {
@@ -402,7 +422,7 @@ h6.grid-color {
   .base2 {
     padding: 0px;
     width: 100vw;
-    height: 100vh;
+    height: 130vh;
   }
 
   .base3 {
