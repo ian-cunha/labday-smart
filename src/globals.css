@@ -209,9 +209,10 @@ a.btn-orange {
 }
 
 a.btn-orange:hover {
-  background-color: white;
-  color: #ffffff;
-  background-color: #00000000;
+  background-color: rgb(0, 0, 0);
+  color: #E36108;
+  background-color: #ffffff00;
+  border-color: #E36108;
 }
 
 a.btn-blue {
@@ -362,6 +363,10 @@ h6.grid-color {
   .text2 {
     text-align: center;
   }
+
+  .textStyle1 {
+    text-align: justify;
+  }
   
   .siteImg {
     width: 300px;
@@ -385,7 +390,7 @@ h6.grid-color {
   }
 
   .baseForm {
-    padding: 15px;
+    padding: 0px;
     width: 100vw;
     height: 100vh;
   }
@@ -395,13 +400,13 @@ h6.grid-color {
   }
 
   .base2 {
-    padding: 15px;
+    padding: 0px;
     width: 100vw;
     height: 100vh;
   }
 
   .base3 {
-    padding: 15px;
+    padding: 0px;
     width: 100vw;
     padding-bottom: 50px;
     color: white;

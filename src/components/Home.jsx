@@ -8,7 +8,7 @@ function Home() {
                     <img className='siteImg' src={site} />
                 </div>
                 <div className="text1 col-md-5">
-                    <h1 className="text-light fs-1">Monte Seu Site Personalizado: Liberdade e Criatividade ao Seu Alcance!</h1>
+                    <h1 className="text-light fs-3 pb-2 pt-2">Monte Seu Site Personalizado: Liberdade e Criatividade ao Seu Alcance!</h1>
                     <h2 className="text-light fs-6">Criado para ajudar você a priorizar negócios, acompanhar seu desempenho e não perder oportunidades.</h2>
 
                     <div className="d-flex flex-sm-row flex-column justify-content-center align-items-center text-light">
@@ -23,7 +23,7 @@ function Home() {
                         </div>
                     </div>
 
-                    <button className='btn btn-orange mt-3 mb-3' data-bs-toggle="modal" data-bs-target="#whatsappModal">COMEÇAR AGORA</button>
+                    <a className='btn btn-orange mt-3 mb-3' target="_blank" href="https://chat.whatsapp.com/BY18IWB0kYmHfMpu0EOf6N" rel="noreferrer">COMEÇAR AGORA</a>
                 </div>
             </div>
         </div>

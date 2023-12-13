@@ -10,10 +10,10 @@ function Models() {
     <>
       <div className="d-flex flex-column justify-content-center align-items-center base3">
         <div className='p-5'>
-          <h2 className='fw-semibold fs-1'>
+          <h2 className='fw-semibold fs-1 pb-4'>
             Modelos 100% personalizáveis
           </h2>
-          <p>⁠Vários modelos para você ter o site com a sua personalidade, feitos especialmente para atender suas necessidades.</p>
+          <p className='textStyle1'>⁠Vários modelos para você ter o site com a sua personalidade, feitos especialmente para atender suas necessidades.</p>
         </div>
         <div className="row justify-content-center p-2">
           <div className="col-sm-4">
