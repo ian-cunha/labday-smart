@@ -1,0 +1,411 @@
+#root {
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.base1 {
+  padding: 15px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  width: 100vw;
+  height: 80vh;
+  background: rgb(255, 90, 45);
+  background: linear-gradient(153deg, rgba(255, 90, 45, 1) 0%, rgba(34, 21, 73, 1) 100%);
+}
+
+.base2 {
+  padding: 15px;
+  width: 100vw;
+  height: 60vh;
+}
+
+.baseForm {
+  padding: 15px;
+  width: 100vw;
+  height: 70vh;
+}
+
+.base3 {
+  padding: 15px;
+  width: 100vw;
+  padding-bottom: 50px;
+  color: white;
+  background: rgb(255, 90, 45);
+  background: radial-gradient(circle, rgba(255, 90, 45, 1) 0%, rgba(34, 21, 73, 1) 100%);
+}
+
+.text1 {
+  text-align: left;
+}
+
+.text2 {
+  text-align: left;
+}
+
+.gifCriacao {
+  border-radius: 20px;
+  border-color: #FF5A2D;
+  border-style: double;
+  width: 600px;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 24px;
+  padding-top: 200px;
+  padding-bottom: 150px;
+  background: url("./assets/city.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.group {
+  width: 100vw;
+  height: 22vh;
+}
+
+.btn-wpp {
+  background-color: #25d366;
+  padding: 15px 30px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  text-decoration-line: none;
+}
+
+.btn-wpp:hover {
+  background-color: white;
+  color: #25d366;
+}
+
+@media (max-width: 600px) {
+  .content {
+    position: relative;
+    width: 100%;
+    padding: 24px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background: url("./assets/mobile.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+}
+
+a.store {
+  color: white;
+}
+
+a.store:hover {
+  color: #E36108;
+}
+
+a.store:focus {
+  color: #E36108;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.color-1 {
+  color: #221549;
+}
+
+.color-2 {
+  color: #FFAA03;
+}
+
+.color-3 {
+  color: #FF5A2D;
+}
+
+.bg-1 {
+  background-color: #221549;
+}
+
+.bg-2 {
+  background-color: #E36108;
+}
+
+.bg-3 {
+  background-color: #FF5A2D;
+}
+
+.bg-4 {
+  background-color: #111111;
+}
+
+.bkp-bg-5 {
+  background: rgba(0, 0, 0, 0);
+}
+
+.bg-5 {
+  background: rgba(0, 0, 0, 0.699);
+}
+
+@media (max-width: 600px) {
+  .bg-5 {
+    background: rgba(0, 0, 0, 0.733)
+  }
+}
+
+.redes {
+  color: #E36108;
+}
+
+.redes:hover {
+  color: #FF5A2D;
+}
+
+a.navbutton {
+  color: #ffffff;
+}
+
+a.navbutton:hover {
+  color: #FF5A2D;
+}
+
+a.navbutton:focus {
+  color: #FF5A2D;
+}
+
+a.buttonplanos {
+  color: #FF5A2D;
+}
+
+a.buttonplanos:hover {
+  color: #FF5A2D;
+  text-decoration: underline;
+}
+
+a.buttonplanos:focus {
+  color: #FF5A2D;
+}
+
+button.btn-orange {
+  background-color: #E36108;
+  color: white;
+}
+
+button.btn-orange:hover {
+  background-color: rgb(0, 0, 0);
+  color: #E36108;
+  background-color: #ffffff00;
+  border-color: #E36108;
+}
+
+
+a.btn-orange {
+  background-color: #E36108;
+  color: white;
+}
+
+a.btn-orange:hover {
+  background-color: white;
+  color: #ffffff;
+  background-color: #00000000;
+}
+
+a.btn-blue {
+  background-color: #221549;
+  color: white;
+}
+
+a.btn-blue:hover {
+  background-color: white;
+  color: #ffffff;
+  background-color: #00000000;
+}
+
+a.btn-blue2 {
+  background-color: #221549;
+  color: white;
+}
+
+a.btn-blue2:hover {
+  background-color: rgb(0, 0, 0);
+  color: #221549;
+  background-color: #ffffff00;
+}
+
+a.btn-gratuito {
+  background-color: #E36108;
+  color: white;
+}
+
+a.btn-gratuito:hover {
+  background-color: white;
+  color: #ffffff;
+  background-color: #00000000;
+}
+
+button.btn-whatsapp {
+  background-color: #075e54;
+  color: white;
+}
+
+button.btn-whatsapp:hover {
+  background-color: white;
+  color: #ffffff;
+  background-color: #00000000;
+}
+
+button.btn-submit {
+  background-color: #075e54;
+  color: white;
+}
+
+button.btn-submit:hover {
+  background-color: rgb(0, 0, 0);
+  color: #075e54;
+  background-color: #ffffff00;
+}
+
+h6.grid-color {
+  color: #221549;
+}
+
+.site-img {
+  width: 50%;
+  overflow: hidden;
+}
+
+@media (max-width: 600px) {
+  .site-img {
+    display: none;
+  }
+}
+
+.card {
+  margin: 24px;
+  width: 40rem;
+  max-width: 100%;
+}
+
+@media (max-width: 600px) {
+  .card {
+    margin: 0;
+    margin-bottom: 24px;
+  }
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.migracao {
+  max-width: 80%;
+}
+
+.wpp-button {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 15px;
+  right: 15px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 36px;
+  z-index: 100;
+  border: 0;
+}
+
+.wpp-button:hover {
+  background-color: #075e54;
+  color: #FFF;
+}
+
+.planos {
+  overflow: hidden;
+}
+
+.portais {
+  max-width: 150px;
+  padding: 10px;
+}
+
+@media (max-width: 600px) {
+  div.desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 601px) {
+  div.mobile {
+    display: none;
+  }
+}
+
+.siteImg {
+  width: 600px;
+}
+
+.imgSmartphone {
+  width: 300px;
+}
+
+@media (max-width: 600px) {
+  .text1 {
+    text-align: center;
+  }
+  
+  .text2 {
+    text-align: center;
+  }
+  
+  .siteImg {
+    width: 300px;
+  }
+
+  .gifCriacao {
+    border-radius: 20px;
+    border-color: #FF5A2D;
+    border-style: double;
+    width: 300px;
+  }
+
+  .base1 {
+    padding: 15px;
+    padding-top: 130px;
+    padding-bottom: 150px;
+    width: 100vw;
+    height: 120vh;
+    background: rgb(255, 90, 45);
+    background: linear-gradient(153deg, rgba(255, 90, 45, 1) 0%, rgba(34, 21, 73, 1) 100%);
+  }
+
+  .baseForm {
+    padding: 15px;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .imgSmartphone {
+    width: 300px;
+  }
+
+  .base2 {
+    padding: 15px;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .base3 {
+    padding: 15px;
+    width: 100vw;
+    padding-bottom: 50px;
+    color: white;
+    background: rgb(255, 90, 45);
+    background: radial-gradient(circle, rgba(255, 90, 45, 1) 0%, rgba(34, 21, 73, 1) 100%);
+  }
+}
