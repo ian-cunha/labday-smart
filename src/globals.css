@@ -384,6 +384,7 @@ h6.grid-color {
     border-radius: 50px;
     text-align: center;
     font-size: 30px;
+    padding-top: 3px;
     z-index: 100;
     border: 0;
   }
