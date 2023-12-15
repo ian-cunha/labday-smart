@@ -7,10 +7,9 @@
 
 .base1 {
   padding: 15px;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 50px;
   width: 100vw;
-  height: 80vh;
+  height: 90vh;
   background: rgb(255, 90, 45);
   background: linear-gradient(153deg, rgba(255, 90, 45, 1) 0%, rgba(34, 21, 73, 1) 100%);
 }
@@ -18,13 +17,13 @@
 .base2 {
   padding: 15px;
   width: 100vw;
-  height: 60vh;
+  height: 80vh;
 }
 
 .baseForm {
   padding: 15px;
   width: 100vw;
-  height: 70vh;
+  height: 80vh;
 }
 
 .base3 {
@@ -38,6 +37,11 @@
 
 .text1 {
   text-align: left;
+  padding: 50px;
+}
+
+.img1 {
+  padding: 30px;
 }
 
 .text2 {
@@ -67,7 +71,7 @@
 
 .group {
   width: 100vw;
-  height: 22vh;
+  height: 30vh;
 }
 
 .btn-wpp {
@@ -363,6 +367,11 @@ h6.grid-color {
 
   .text1 {
     text-align: center;
+    padding: 0px;
+  }
+
+  .img1 {
+    padding: 0px;
   }
   
   .text2 {
